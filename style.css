@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --main-color: #f0f0f0;
+    --other-color: #ffc633;
+    --second-color: #616060;
+
+    --h1-font: 5.5rem;
+    --h2-font: 3.5rem;
+    --p-font: 1rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    box-shadow: 0 1px 6px 0rgba(32 33 36 / 5%);
+    padding: 18px 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .6s;
+}
+
+.home-page header{
+    background: #ffffff;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 250;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: var(--p-font);
+    font-weight: 300;
+    color: var(--text-color);
+    transition: all .6s;
+}
+
+.navlist a:hover {
+    text-decoration: underline;
+    color: var(--second-color);
+}
+
+section{
+    padding: 80px 14% 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+
+
+
+
+
+
+
+.image1-container, .image2-container,
+.image3-container, .image4-container {
+    text-align: center; 
+}
+
+.image1-container img, .image2-container img,
+.image3-container img, .image4-container img {
+    max-width: 100%;
+    height: auto;
+    width: 500px; 
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin: 0% 0;
+    
+}
+
+.image-row2 {
+    display: flex; 
+    justify-content: center;
+    margin: 0% 0;
+    
+}
+
+.image1-container , .image2-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 0%;
+}
+
+.image1-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+}
+.image2-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+}
+
+.image3-container , .image4-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 0%;
+}
+
+.image3-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 45%;
+    height: 5%;
+}
+.image4-container {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 45%;
+    height: 5%;
+}
+
+
+
+
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #616060;
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bottom-footer{
+    text-align: center;
+    padding: 5px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.login-container {
+    max-width: 400px;
+    margin: 223px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 0px 0;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.contact-us {
+    padding: 120px 25%;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-box {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.contact-box h2 {
+    font-size: 24px;
+    margin-bottom: 130px;
+}
+
+.contact-box p {
+    font-size: 16px;
+    margin-bottom: 80px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.contact-box ul {
+    list-style-type: center;
+    padding: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 10px;
+}
+
+.contact-box a {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+}
+
+.contact-box a:hover {
+    color: var(--second-color);
+    text-decoration: underline;
+}
+
+
+
+
+
+.menswear-row1{
+    display: flex;
+    justify-content: center;
+    margin: 0% 0;
+    size-adjust: 10px 0;
+    width: 10% 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+.menswear-row1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.menswear-row2{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    size-adjust: 10px 0;
+    width: 10% 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+.menswear-row2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.tattoo-container{
+    text-decoration: line-through;
+}
+
+.spread-bv-container{
+    text-decoration: line-through;
+}
+
+.champ-cropped-container{
+text-decoration: line-through;
+}
+
+.blackcalf-bv-container{
+    text-decoration: line-through;
+    }
+
+
+
+
+    .menswear-vertical {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 310px;
+        margin: 20px;
+        text-align: left;
+    }
+    
+    .menswear-vertical img {
+        max-width: 100%;
+        height: auto;
+        font-family: "Roboto", sans-serif;
+        margin-left: 680px;
+    }
+    
+
+
+    .item-title {
+        position: fixed;
+        top: 120px;
+        right: 0px;
+        width: auto;
+        text-align: right;
+        z-index: 1000;
+        font-family: "Roboto", sans-serif;
+    }
+    .item-title {
+        position: fixed;
+        top: 10px;
+        right: 0px;
+        width: auto;
+        text-align: right;
+        z-index: 1000;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .title-text {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+    }
+    
+
+
+
+
+
+    .title-box {
+        position: fixed;
+        top: 10px;
+        left: 500px;
+        padding: 120px 30%;
+        font-family: "Roboto", sans-serif;
+        z-index: 1000;
+    }
+    
+    
+    .item-box {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 30px;
+        border: 1px solid #000000;
+        text-align: left;
+    }
+    
+    .item-box h2 {
+        font-size: 15px;
+        margin-right: 10px;
+        ;
+    }
+    
+    .item-box p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .item-box select {
+        padding: 1px;
+        margin: 20px 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    }
+    
+    
+
+    .handbalm.page, .bodyscrub-page, .bodyscrub-page .description {
+        font-size: 4px;
+        line-height: 5;
+    }
+    
+    .basket-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+}
+.basket-item {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between; /* Space between item details and remove button */
+    padding: 25px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px ;
+    text-transform: uppercase;
+}
+.basket-item:last-child {
+    border-bottom: none;
+}
+.basket-summary {
+    margin-top: 20px;
+}
+#checkout-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    
